@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-areas:'header header header'
+                        'section section section'
+                        'main main main'
+                        'div div div'
+                        'footer footer footer';
+   grid-template-rows: 80vh 30vh 40vh 40vh 50vh
+
+}
+header{
+    grid-area:header;
+    background-image: url(imagens/banner.png);
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border-top:6px #5fcd70 solid;
+
+    
+}
+span{
+    color: #5fcd70;
+
+}
+
+section{
+    grid-area: section;
+    background-color: rgb(238, 224, 222);
+    display: flex
+
+}
+
+h1{
+    font-size: 50pt;
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+p{
+    font-size: 20pt;
+    color: white;
+}
